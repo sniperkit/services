@@ -1,3 +1,6 @@
+// Sniperkit - 2018
+// Status: Analyzed
+
 package gitfetcher
 
 import (
@@ -12,7 +15,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dave/services"
+	"github.com/sniperkit/snk.fork.services"
 	"gopkg.in/src-d/go-billy-siva.v4"
 	"gopkg.in/src-d/go-billy.v4"
 	"gopkg.in/src-d/go-billy.v4/memfs"

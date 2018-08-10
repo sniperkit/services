@@ -1,3 +1,6 @@
+// Sniperkit - 2018
+// Status: Analyzed
+
 // package constor (concurrent storer) for storing items into a services.Fileserver concurrently
 package constor
 
@@ -7,8 +10,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/dave/services"
-	"github.com/dave/services/constor/constormsg"
+	"github.com/sniperkit/snk.fork.services"
+	"github.com/sniperkit/snk.fork.services/constor/constormsg"
 )
 
 /*

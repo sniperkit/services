@@ -1,3 +1,6 @@
+// Sniperkit - 2018
+// Status: Analyzed
+
 package includer
 
 import (

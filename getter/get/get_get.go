@@ -1,3 +1,6 @@
+// Sniperkit - 2018
+// Status: Analyzed
+
 package get
 
 import (
@@ -7,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/dave/services/getter/gettermsg"
+	"github.com/sniperkit/snk.fork.services/getter/gettermsg"
 )
 
 func (g *Getter) download(ctx context.Context, path string, parent *Package, stk *ImportStack, update bool, insecure, single bool) error {

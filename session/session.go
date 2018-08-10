@@ -1,3 +1,6 @@
+// Sniperkit - 2018
+// Status: Analyzed
+
 package session
 
 import (
@@ -8,7 +11,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/dave/services"
+	"github.com/sniperkit/snk.fork.services"
 	"github.com/gopherjs/gopherjs/compiler"
 	"gopkg.in/src-d/go-billy.v4"
 	"gopkg.in/src-d/go-billy.v4/memfs"

@@ -1,3 +1,6 @@
+// Sniperkit - 2018
+// Status: Analyzed
+
 package deployer
 
 import (
@@ -14,10 +17,10 @@ import (
 	"sync"
 	"text/template"
 
-	"github.com/dave/services/builder"
-	"github.com/dave/services/builder/buildermsg"
-	"github.com/dave/services/constor"
-	"github.com/dave/services/constor/constormsg"
+	"github.com/sniperkit/snk.fork.services/builder"
+	"github.com/sniperkit/snk.fork.services/builder/buildermsg"
+	"github.com/sniperkit/snk.fork.services/constor"
+	"github.com/sniperkit/snk.fork.services/constor/constormsg"
 	"gopkg.in/src-d/go-billy.v4/memfs"
 )
 

@@ -1,9 +1,12 @@
+// Sniperkit - 2018
+// Status: Analyzed
+
 package cache
 
 import (
 	"context"
 
-	"github.com/dave/services"
+	"github.com/sniperkit/snk.fork.services"
 	"gopkg.in/src-d/go-billy.v4"
 )
 

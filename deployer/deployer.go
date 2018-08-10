@@ -1,8 +1,11 @@
+// Sniperkit - 2018
+// Status: Analyzed
+
 package deployer
 
 import (
-	"github.com/dave/services"
-	"github.com/dave/services/session"
+	"github.com/sniperkit/snk.fork.services"
+	"github.com/sniperkit/snk.fork.services/session"
 )
 
 type Deployer struct {

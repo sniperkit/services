@@ -1,3 +1,6 @@
+// Sniperkit - 2018
+// Status: Analyzed
+
 package get
 
 import (
@@ -10,7 +13,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/dave/services/getter/cache"
+	"github.com/sniperkit/snk.fork.services/getter/cache"
 	"gopkg.in/src-d/go-billy.v4"
 )
 

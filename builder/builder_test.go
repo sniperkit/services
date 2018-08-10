@@ -1,3 +1,6 @@
+// Sniperkit - 2018
+// Status: Analyzed
+
 package builder
 
 import (
@@ -6,7 +9,7 @@ import (
 	"go/types"
 	"testing"
 
-	"github.com/dave/services/fsutil"
+	"github.com/sniperkit/snk.fork.services/fsutil"
 
 	"io/ioutil"
 	"os"

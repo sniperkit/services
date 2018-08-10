@@ -1,3 +1,6 @@
+// Sniperkit - 2018
+// Status: Analyzed
+
 package localfetcher
 
 import (
@@ -9,7 +12,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/dave/services/fsutil"
+	"github.com/sniperkit/snk.fork.services/fsutil"
 	"golang.org/x/sync/singleflight"
 	"gopkg.in/src-d/go-billy.v4"
 	"gopkg.in/src-d/go-billy.v4/memfs"

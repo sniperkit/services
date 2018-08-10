@@ -1,3 +1,6 @@
+// Sniperkit - 2018
+// Status: Analyzed
+
 package builder
 
 import (
@@ -22,9 +25,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dave/services"
-	"github.com/dave/services/builder/buildermsg"
-	"github.com/dave/services/session"
+	"github.com/sniperkit/snk.fork.services"
+	"github.com/sniperkit/snk.fork.services/builder/buildermsg"
+	"github.com/sniperkit/snk.fork.services/session"
 	"github.com/gopherjs/gopherjs/compiler"
 	"github.com/gopherjs/gopherjs/compiler/natives"
 	"golang.org/x/tools/go/gcexportdata"

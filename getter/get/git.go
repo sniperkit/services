@@ -1,11 +1,14 @@
+// Sniperkit - 2018
+// Status: Analyzed
+
 package get
 
 import (
 	"context"
 	"time"
 
-	"github.com/dave/services/fsutil"
-	"github.com/dave/services/getter/cache"
+	"github.com/sniperkit/snk.fork.services/fsutil"
+	"github.com/sniperkit/snk.fork.services/getter/cache"
 	"gopkg.in/src-d/go-billy.v4"
 	git "gopkg.in/src-d/go-git.v4"
 	"gopkg.in/src-d/go-git.v4/config"

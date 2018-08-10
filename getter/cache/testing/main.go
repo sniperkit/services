@@ -1,3 +1,6 @@
+// Sniperkit - 2018
+// Status: Analyzed
+
 package main
 
 import (
@@ -6,7 +9,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/dave/services/fsutil"
+	"github.com/sniperkit/snk.fork.services/fsutil"
 	"gopkg.in/src-d/go-billy-siva.v4"
 	"gopkg.in/src-d/go-billy.v4"
 	"gopkg.in/src-d/go-billy.v4/memfs"

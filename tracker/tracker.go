@@ -1,3 +1,6 @@
+// Sniperkit - 2018
+// Status: Analyzed
+
 package tracker
 
 import (
@@ -11,7 +14,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dave/services"
+	"github.com/sniperkit/snk.fork.services"
 	humanize "github.com/dustin/go-humanize"
 )
 
