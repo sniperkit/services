@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Sniperkit - 2018
 // Status: Analyzed
 

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Sniperkit - 2018
 // Status: Analyzed
 
@@ -5,11 +10,10 @@ package get
 
 import (
 	"context"
+	"fmt"
 	"go/build"
 	"io"
 	"sync"
-
-	"fmt"
 
 	"github.com/sniperkit/snk.fork.services"
 	"github.com/sniperkit/snk.fork.services/getter/cache"

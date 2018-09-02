@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Sniperkit - 2018
 // Status: Analyzed
 
@@ -25,11 +30,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/gopherjs/gopherjs/compiler"
+	"github.com/gopherjs/gopherjs/compiler/natives"
 	"github.com/sniperkit/snk.fork.services"
 	"github.com/sniperkit/snk.fork.services/builder/buildermsg"
 	"github.com/sniperkit/snk.fork.services/session"
-	"github.com/gopherjs/gopherjs/compiler"
-	"github.com/gopherjs/gopherjs/compiler/natives"
 	"golang.org/x/tools/go/gcexportdata"
 	"gopkg.in/src-d/go-billy.v4"
 	"gopkg.in/src-d/go-billy.v4/memfs"

@@ -1,9 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Sniperkit - 2018
 // Status: Analyzed
 
 package treeicons
 
-import "github.com/gopherjs/vecty"
+import (
+	"github.com/gopherjs/vecty"
+)
 
 func Plus() *vecty.HTML {
 	return vecty.Tag(

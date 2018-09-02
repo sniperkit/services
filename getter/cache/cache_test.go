@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Sniperkit - 2018
 // Status: Analyzed
 
@@ -9,7 +14,6 @@ import (
 	"io"
 	"io/ioutil"
 	"testing"
-
 	"time"
 
 	"gopkg.in/src-d/go-billy.v4"

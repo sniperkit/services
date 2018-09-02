@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Sniperkit - 2018
 // Status: Analyzed
 
@@ -9,11 +14,11 @@ import (
 	"fmt"
 	"sync/atomic"
 
+	"github.com/gopherjs/gopherjs/compiler"
 	"github.com/sniperkit/snk.fork.services/builder"
 	"github.com/sniperkit/snk.fork.services/builder/buildermsg"
 	"github.com/sniperkit/snk.fork.services/constor"
 	"github.com/sniperkit/snk.fork.services/deployer/deployermsg"
-	"github.com/gopherjs/gopherjs/compiler"
 )
 
 func (d *Deployer) Update(ctx context.Context, source map[string]map[string]string, cache map[string]string, min bool) error {

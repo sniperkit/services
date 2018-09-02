@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Sniperkit - 2018
 // Status: Analyzed
 
@@ -11,8 +16,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/sniperkit/snk.fork.services"
 	"github.com/gopherjs/gopherjs/compiler"
+	"github.com/sniperkit/snk.fork.services"
 	"gopkg.in/src-d/go-billy.v4"
 	"gopkg.in/src-d/go-billy.v4/memfs"
 )

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Sniperkit - 2018
 // Status: Analyzed
 
@@ -7,16 +12,14 @@ import (
 	"fmt"
 	"go/build"
 	"go/types"
-	"testing"
-
-	"github.com/sniperkit/snk.fork.services/fsutil"
-
 	"io/ioutil"
 	"os"
 	"os/exec"
 	"path/filepath"
 	"strings"
+	"testing"
 
+	"github.com/sniperkit/snk.fork.services/fsutil"
 	"gopkg.in/src-d/go-billy.v4"
 	"gopkg.in/src-d/go-billy.v4/memfs"
 	"gopkg.in/src-d/go-billy.v4/osfs"
@@ -211,9 +214,9 @@ func testPackage(path, goroot, gopath string, goroot1 billy.Filesystem, masterLi
 
 func TestUnvendorPath(t *testing.T) {
 	cases := map[string]string{
-		"bytes":                                      "bytes",
-		"crypto/rc4":                                 "crypto/rc4",
-		"crypto/rc4/vendor":                          "crypto/rc4/vendor",
+		"bytes":             "bytes",
+		"crypto/rc4":        "crypto/rc4",
+		"crypto/rc4/vendor": "crypto/rc4/vendor",
 		"cmd/vendor/github.com/google/pprof/profile": "github.com/google/pprof/profile",
 		"testing/internal-vendor/testdeps":           "testing/internal-vendor/testdeps",
 		"/testing/internal-vendor/testdeps":          "/testing/internal-vendor/testdeps",

@@ -1,9 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Sniperkit - 2018
 // Status: Analyzed
 
 package gettermsg
 
-import "encoding/gob"
+import (
+	"encoding/gob"
+)
 
 func RegisterTypes() {
 	gob.Register(Downloading{})

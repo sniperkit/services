@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Sniperkit - 2018
 // Status: Analyzed
 
@@ -14,8 +19,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sniperkit/snk.fork.services"
 	humanize "github.com/dustin/go-humanize"
+	"github.com/sniperkit/snk.fork.services"
 )
 
 func Handler(w http.ResponseWriter, req *http.Request) {

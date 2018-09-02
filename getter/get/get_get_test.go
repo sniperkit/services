@@ -1,16 +1,19 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Sniperkit - 2018
 // Status: Analyzed
 
 package get
 
 import (
-	"os"
-	"testing"
-
-	"fmt"
-	"path/filepath"
-
 	"context"
+	"fmt"
+	"os"
+	"path/filepath"
+	"testing"
 
 	"gopkg.in/src-d/go-billy.v4/memfs"
 	git "gopkg.in/src-d/go-git.v4"
